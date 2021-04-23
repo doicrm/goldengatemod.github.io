@@ -34859,7 +34859,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -75px 188px 46px auto;
+  margin: -75px 188px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -34870,6 +34870,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
+}
+
+.u-header .u-btn-1 {
+  margin: -73px 0 60px auto;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
