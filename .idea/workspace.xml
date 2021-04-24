@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="174549c9-4c44-4464-9c29-2ee2bd16d723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/482BDF4F7124D74BCF13919D11667119.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/482BDF4F7124D74BCF13919D11667119.key" afterDir="false" />
-    </list>
+    <list default="true" id="174549c9-4c44-4464-9c29-2ee2bd16d723" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
