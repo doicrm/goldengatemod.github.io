@@ -34905,10 +34905,25 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-right: 141px;
   }
+
+  .u-header .u-icon-1 {
+    margin-top: -32px;
+    margin-right: 212px;
+    margin-bottom: 54px;
+  }
 }
 @media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: auto;
+    height: auto;
+  }
+
   .u-header .u-menu-1 {
     margin-right: 89px;
+  }
+
+  .u-header .u-icon-1 {
+    margin-right: -12px;
   }
 }
 .u-footer {
