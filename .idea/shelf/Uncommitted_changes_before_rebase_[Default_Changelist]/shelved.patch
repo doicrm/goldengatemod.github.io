@@ -1,0 +1,70 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"174549c9-4c44-4464-9c29-2ee2bd16d723\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1rOgYDxOY9TIvfOsRRcsz8ALTD4\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"174549c9-4c44-4464-9c29-2ee2bd16d723\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1618852596433</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1618852596433</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"HEAD\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 74153fb337333c291bdb89898715a67cb7bca000)
++++ b/.idea/workspace.xml	(date 1619290580595)
+@@ -1,13 +1,26 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="174549c9-4c44-4464-9c29-2ee2bd16d723" name="Default Changelist" comment="" />
++    <list default="true" id="174549c9-4c44-4464-9c29-2ee2bd16d723" name="Default Changelist" comment="Revert &quot;ssl certificate delete&quot;&#10;&#10;This reverts commit adf526e2" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="main" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+@@ -34,6 +47,21 @@
+       <option name="presentableId" value="Default" />
+       <updated>1618852596433</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Revert &quot;ssl certificate delete&quot;&#10;&#10;This reverts commit adf526e2">
++      <created>1619290524621</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1619290524621</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Revert &quot;ssl certificate&quot;&#10;&#10;This reverts commit b82039be">
++      <created>1619290545597</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1619290545597</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -82,5 +110,8 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="Revert &quot;ssl certificate delete&quot;&#10;&#10;This reverts commit adf526e2" />
++    <MESSAGE value="Revert &quot;ssl certificate&quot;&#10;&#10;This reverts commit b82039be" />
++    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;ssl certificate&quot;&#10;&#10;This reverts commit b82039be" />
+   </component>
+ </project>
+\ No newline at end of file
