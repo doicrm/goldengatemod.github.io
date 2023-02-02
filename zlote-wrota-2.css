@@ -1,3 +1,65 @@
+.u-section-0 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/Background_04.webp");
+}
+
+.u-section-0 .u-sheet-1 {
+  min-height: 879px;
+}
+
+.u-section-0 .u-iframe-1 {
+  width: 840px;
+  height: 472.5px;
+  margin: 160px auto 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-0 .u-sheet-1 {
+    min-height: 725px;
+  }
+
+  .u-section-0 .u-iframe-1 {
+    margin: 130px auto 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-0 .u-sheet-1 {
+    min-height: 760px;
+  }
+
+  .u-section-0 .u-iframe-1 {
+    width: 720px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-0 .u-sheet-1 {
+    min-height: 476px;
+  }
+
+  .u-section-0 .u-iframe-1 {
+    margin: 65px auto 0;
+    width: 540px;
+    height: 315px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-0 .u-sheet-1 {
+    min-height: 420px;
+  }
+
+  .u-section-0 .u-iframe-1 {
+    width: 373.3px;
+    height: 210px;
+    margin-top: 80px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+
 .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/Background_01.webp");
 }
