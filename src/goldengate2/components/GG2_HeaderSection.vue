@@ -6,19 +6,7 @@
       alt="image description"
     />
     <p class="mb-3 text-gray-500 dark:text-gray-400">
-      <i
-        >Fale miarowo rozbijały się o kamienny klif, a chłodny wiatr cicho szumiał w uszach. Na
-        horyzoncie można było dostrzec zbliżający się do wyspy statek, noszący miano Gamaliel.
-        Wreszcie jest - pomyślał Morris. - Jeszcze tylko chwila i opuszczę tę przeklętą wyspę raz na
-        zawsze. W tym momencie młodzieniec stojący na klifie nie wyobrażał sobie nawet, ile
-        przeciwności losu i trudności go spotka, nim będzie w stanie opuścić Samoę. Nie zdawał sobie
-        sprawy, jak bardzo wszystko się skomplikuje i ile razy jego życie będzie zagrożone. Nie
-        wiedział jeszcze, jakich niesamowitych rzeczy będzie świadkiem; ale dowie się już
-        wkrótce...</i
-      >
-    </p>
-    <p class="text-gray-500 dark:text-gray-400">
-      I Wy, drodzy gracze, będziecie mogli się tego dowiedzieć, grając w drugą część Złotych Wrót.
+      Złote Wrota 2: Serce Bogini to darmowa modyfikacja do gry Gothic II,  tworzona przez grupę pasjonatów. Zabierzemy was na niezwykłą przygodę do zupełnie nowego regionu świata Gothic - Królestwa Elei. A konkretnie na wyspę Samoa, która lata temu była zamieszkiwana przez krwawy kult hasyjczyków i do dziś skrywa ich mroczne tajemnice, które czekają na odkrycie. Położyliśmy duży nacisk na stworzenie dojrzałej fabuły z wieloma wyborami, które mają swoje konsekwencje… Podczas rozgrywki dostaniecie do dyspozycji zupełnie nowy, stworzony, od zera świat., okraszony autorską ścieżką dźwiękową. Nie zabraknie również pełnego polskiego dubbingu, oraz nowych mechanik.
     </p>
   </div>
 </template>
