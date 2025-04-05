@@ -1,8 +1,13 @@
 /* color palette from <https://github.com/vuejs/theme> */
 
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "tailwindcss";
+@import "tailwindcss-primeui";
 
 :root {
   --vt-c-white: #ffffff;
@@ -24,6 +29,23 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --p-select-overlay-background: #15120d !important;
+  --color-background: #15120d !important;
+
+  --p-menubar-background: #15120d !important;
+  --p-menubar-submenu-background: #15120d !important;
+  --p-menubar-item-focus-background: color-mix(in srgb, var(--p-amber-300), transparent 76%) !important;
+  --p-menubar-item-active-background: color-mix(in srgb, var(--p-amber-300), transparent 76%) !important;
+  --p-menubar-mobile-button-color: var(--p-amber-200) !important;
+
+  --p-timeline-event-connector-color: var(--p-amber-200) !important;
+  --p-timeline-event-marker-border-color: var(--p-amber-300) !important;
+  --p-timeline-event-min-height: 3rem !important;
+  --p-timeline-event-marker-content-background: var(--p-amber-300) !important;
+
+  --p-tabs-active-bar-background: var(--p-amber-300) !important;
+  --p-tabs-tab-active-color: var(--p-amber-200) !important;
 }
 
 /* semantic color variables for this project */
@@ -72,6 +94,7 @@ body {
     background-color 0.5s;
   line-height: 1.6;
   font-family:
+    'Copse',
     Inter,
     -apple-system,
     BlinkMacSystemFont,
@@ -84,8 +107,10 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+span.flag{width:44px;height:30px;display:inline-block;}img.flag{width:30px}.flag{background:url(https://primefaces.org/cdn/primevue/images/flag/flags_responsive.png) no-repeat;background-size:100%;vertical-align: middle;}.flag-en{background-position:0 92.561983%}.flag-pl{background-position:0 70.661157%}

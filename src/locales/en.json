@@ -1,0 +1,21 @@
+{
+  "navigation": {
+    "goldenGate2": "Golden Gate 2: Goddess Heart",
+    "goldenGate": "Golden Gate",
+    "team": "Team",
+    "joinUs": "Join us"
+  },
+  "goldenGate2": {
+    "description": "Golden Gate 2: Goddess Heart is a free modification for Gothic II, created by a group of enthusiasts. We will take you on an extraordinary adventure to a completely new region of the Gothic world - the Kingdom of Elea. Specifically, to the island of Samoa, which years ago was inhabited by the bloody cult of the Hessians and still hides their dark secrets waiting to be uncovered. We have placed great emphasis on creating a mature storyline with many choices that have consequences... During the gameplay you will get a completely new world, created from scratch, spiced up with an original soundtrack. There will also be full Polish dubbing and new mechanics.",
+    "pros": [
+      "About 30 hours of gameplay",
+      "Over 70 nonlinear quests",
+      "Full Polish voice acting",
+      "Complete original soundtrack",
+      "A world created from scratch"
+    ]
+  },
+  "footer": {
+    "goldenGateTeam": "Golden Gate Team"
+  }
+}

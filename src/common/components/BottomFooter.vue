@@ -1,10 +1,10 @@
 <template>
-  <footer class="bg-white dark:bg-gray-900">
+  <footer>
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr class="my-6 sm:mx-auto border-amber-300 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2008-{{ currentYear }} Złote Wrota Team
+        <span class="text-sm text-amber-200 sm:text-center">
+          © 2008-{{ currentYear }} {{ t('footer.goldenGateTeam') }}
         </span>
         <div class="flex mt-4 sm:justify-center sm:mt-0">
           <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -62,5 +62,7 @@
 </template>
 
 <script setup lang="ts">
-const currentYear = computed(() => new Date().getFullYear())
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+const currentYear = new Date().getFullYear();
 </script>

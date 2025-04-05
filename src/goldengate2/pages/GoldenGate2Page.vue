@@ -1,11 +1,21 @@
-<script setup lang="ts">
-import GG2_HeaderSection from '@/goldengate2/components/GG2_HeaderSection.vue'
-import GG2_TeaserSection from '@/goldengate2//components/GG2_TeaserSection.vue'
-</script>
-
 <template>
   <main>
-    <GG2_HeaderSection />
-    <GG2_TeaserSection />
+    <Introduction />
+    <Teaser />
+    <ModPros />
+    <LocationsShowcase />
+    <NpcsShowcase />
+    <FAQ />
+    <!-- <ScreenGallery /> -->
   </main>
 </template>
+
+<script setup lang="ts">
+import Introduction from '@/goldengate2/components/Introduction.vue'
+import Teaser from '@/goldengate2/components/Teaser.vue'
+import ModPros from '@/goldengate2/components/ModPros.vue'
+import LocationsShowcase from '@/goldengate2/components/LocationsShowcase.vue'
+import NpcsShowcase from '@/goldengate2/components/NpcsShowcase.vue'
+import FAQ from '@/goldengate2/components/FAQ.vue'
+import ScreenGallery from '@/goldengate2/components/ScreenGallery.vue'
+</script>
